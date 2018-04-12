@@ -1,18 +1,33 @@
+
+<style type="text/css">
 table {
-    border-collapse
-    width: 100%;
-     border: 1px solid black;
+  font: 12px/24px Verdana, Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100px;
+  margin:0 auto;
+
 }
-
-th, td {
-    text-align
-    padding: 8px;
-    
-}
-
-tr:nth-child(even){background-color: #f2f2f2}
-
 th {
-    background-color: #3366FF;
-    color: white;
+  border: 1px solid #CCC;
+  padding: 0 0.5em;
+  text-align: center;
+  background-color:#00FF66
 }
+td {
+  border: 1px solid #CCC;
+  padding: 0 0.5em;
+  background-color:#DFFDD5;
+}
+h1 {
+  color:#003300;
+  font:22px "Trebuchet MS";
+  text-align:center;
+}
+h2 {
+	 text-align:center;
+	 color: white;
+}
+body {
+    background-image: url("a.jpeg");
+}
+</style>
