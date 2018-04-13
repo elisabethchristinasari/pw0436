@@ -1,0 +1,66 @@
+.header{
+	background: #80b3ff;
+	width: 900px;
+	height: 150px;
+	margin: 0 auto;
+}
+
+.header h1{
+	padding: 10px;
+	text-align: right;
+	margin-right: 20px;
+	font-family: verdana;
+	border-radius: 10px;
+	background: #cce0ff;
+	margin-left: 500px;
+	float: right;
+	width: 400px;
+
+}
+
+.header h1 small{
+	font-size: 50%;
+	
+}
+
+.menu{
+	width: 900px;
+	height: 40px;
+	margin: 0 auto;
+	background: #005ce6;
+	border-top: 1px solid #000;
+	text-align: center;
+}
+
+.menu ul li {
+	display: inline;
+
+}
+
+.menu ul li a {
+	color: white;
+	margin:0 30px;
+	text-decoration: none;
+	font-family: verdana;
+
+}
+
+.menu ul li a:hover{
+	color: #002966;
+
+}
+
+.content{
+	background: #003380;
+	width: 900px;
+	height: 400px;
+	margin: 0 auto;
+}
+.subc{
+	width: 290px;
+	height: 380px;
+	background: #cce0ff;
+	border-radius: 10px;
+	float: left;
+	margin: 5px; 
+}
