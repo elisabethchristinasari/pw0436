@@ -3,6 +3,7 @@
 	width: 900px;
 	height: 150px;
 	margin: 0 auto;
+
 }
 
 .header h1{
@@ -63,4 +64,6 @@
 	border-radius: 10px;
 	float: left;
 	margin: 5px; 
+	font-family: verdana;
+	text-indent: 0.5in;
 }
