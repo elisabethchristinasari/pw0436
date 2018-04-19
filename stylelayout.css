@@ -3,7 +3,6 @@
 	width: 900px;
 	height: 150px;
 	margin: 0 auto;
-
 }
 
 .header h1{
@@ -22,6 +21,13 @@
 .header h1 small{
 	font-size: 50%;
 	
+}
+
+.header img{
+width: 80px;
+	height: 100px;
+	padding: 30px;
+	float:left;
 }
 
 .menu{
