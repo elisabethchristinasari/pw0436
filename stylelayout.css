@@ -5,6 +5,13 @@
 	margin: 0 auto;
 }
 
+.header img{
+	text-align: left;
+	width: 180px;
+	height: 120px;
+	padding: 20px;
+}
+
 .header h1{
 	padding: 10px;
 	text-align: right;
@@ -12,7 +19,6 @@
 	font-family: verdana;
 	border-radius: 10px;
 	background: #cce0ff;
-	margin-left: 500px;
 	float: right;
 	width: 400px;
 
@@ -22,6 +28,7 @@
 	font-size: 50%;
 	
 }
+
 
 .menu{
 	width: 900px;
@@ -51,7 +58,7 @@
 }
 
 .content{
-	background: #003380;
+	background: url('b.jpg');
 	width: 900px;
 	height: 400px;
 	margin: 0 auto;
@@ -63,4 +70,14 @@
 	border-radius: 10px;
 	float: left;
 	margin: 5px; 
+	font-family: verdana;
+	text-indent: 0.5in;
+	}
+
+.subc img{
+	text-align: center;
+	width: 250px;
+	height: 220px;
+	padding: 20px;
+	border-radius: 10px;
 }
