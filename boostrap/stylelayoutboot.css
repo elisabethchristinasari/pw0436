@@ -1,15 +1,18 @@
 .header{
-	background: #80b3ff;
-	margin: 0 auto;
+	background-image: url("c.jpg");
+
 }
 
+.container{
+	background:#ff3385;
+}
 .header h1{
 	padding: 10px;
 	text-align: right;
 	margin-right: 20px;
 	font-family: verdana;
 	border-radius: 10px;
-	background: #cce0ff;
+	background-image: url("b.jpg");
 	margin-left: 500px;
 	float: right;
 
@@ -23,7 +26,7 @@
 .menu{
 
 	margin: 0 auto;
-	background: #005ce6;
+background:#ff3385;
 	border-top: 1px solid #000;
 	text-align: center;
 	color: white;
@@ -31,19 +34,27 @@
 
 .menu ul li {
 	display: inline;
-
+margin-right: 150px;
 }
 
 .menu ul li a {
 	color: white;
-	margin:0 30px;
+margin-left: 300px;
 	text-decoration: none;
 	font-family: verdana;
-
 }
 
+.row{
+	background-image: url("f.jpg");
+	margin: 0 auto;
+}
+
+	
+}
 .menu ul li a:hover{
+	color: white;
 	color: #002966;
+
 
 }
 
