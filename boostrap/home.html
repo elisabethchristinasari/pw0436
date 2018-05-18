@@ -6,58 +6,53 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="fa/web-fa/css/fontawesome-all.css">
     <link rel="stylesheet" type="text/css" href="stylelayoutboot.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>    
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+
+    <script>
+var app = angular.module("myApp", ["ngRoute"]);
+app.config(function($routeProvider) {
+    $routeProvider
+    .when("/", {
+        templateUrl : "main.htm"
+    })
+
+    .when("/about", {
+      templateUrl : "about.htm"
+    })
+
+     .when("/contact", {
+      templateUrl : "contact.htm"
+     })
+    });
+</script>
+
   </head>
 
   <body>
-  <div class="container">
-  	<h1>Alice Design</h1>
-  	<p>we are an independent interactive agency based in London..</p>
-  	<button class="btn btn-info"><i class="fas fa-angle-double-right"></i>Join Us</button>
 
+<div ng-app="myApp" class="container-fluid">
   	<div class="row">
   	<div class="col-md-12 header">
-  		<h1>Welcome..</h1>
+  		<h1>Title of the web</h1>
   		</div>
   	</div>
 
   	<div class="row">
   	<div class="col-md-12 menu">
- 
-    welcome to my paradise..
+    <a #href="#!"><i class="fas fa-home"></i>
+     <a href="#!">Home</a>
+      <a href="#!about">About</a>
+        <a href="#!contact">contact</a>
+
   		</div>
   	</div>
 
-  	<div class="row">
-  	<div class="col-md-8">
-  		<h1><i class="fas fa-crow"></i></h1>
   
-<p>Fashion desain adalah seni merancang pakaian yang bersifat fungsional dan estetis. Fashion desainer harus belajar kerajinan mereka dengan baik dalam rangka untuk menjadi sukses. Sebuah kursus fashion desain dapat memberikan pengenalan untuk belajar lebih lanjut dalam bidang ini permintaan tinggi.<br> <br>
 
-<strong>Apa Itu Fashion Design Course?</strong><br> <br>
-
-Sebuah kursus desain fashion adalah kursus yang meliputi seni merancang pakaian yang indah dan aksesoris fashion. Kursus-kursus ini melihat karya desainer terkenal dan budaya waktu untuk menunjukkan siswa bagaimana desain fashion besar datang untuk menjadi.<br> <br>
-
-<strong>Apakah Manfaat dari Mengambil Course in Fashion Design?</strong> <br> <br>
-
-Sebuah kursus di desain fashion akan mengajarkan anda dasar-dasar mode merancang.Hal ini dapat menunjukkan mahasiswa atau tidaknya karir di desain fashion akan menjadi cocok, atau menyediakan dasar untuk studi di masa depan di lapangan.</p>
-       <img src="d.jpg"  width="550" height="400"/>
-</div>
-
-  	<div class="col-md-4">
-  		<h1><i class="fas fa-crow"></i></h1>
-        
-  	<strong><em>WA/SMS</strong></em><br>
-      0856-7891-1234<br><br>
-      <strong><em>Email</strong></em><br>
-      elsbtchristina@gmail.com<br> <br>
-      <strong><em>Address</strong></em><br>
-      Jln. Nusa Indah no 2, Condongcatur<br><br>
-
- 
-          <img src="e.jpg" width="350" height="250"/>
-  </div>
+  	 <ng-view></ng-view> 
   	
-
+ </div>
     
 
   </body>
