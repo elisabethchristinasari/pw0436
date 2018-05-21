@@ -35,11 +35,12 @@ background:#ff3385;
 .menu ul li {
 	display: inline;
 margin-right: 150px;
+margin-left: 100px;
 }
 
 .menu ul li a {
 	color: white;
-margin-left: 300px;
+margin: 0 auto;
 	text-decoration: none;
 	font-family: verdana;
 }
